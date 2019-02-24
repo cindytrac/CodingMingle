@@ -1,0 +1,35 @@
+:root {
+    --color-light-blue: #99ccff;
+    --color-white #fff;
+    --color-navy: rgba(62,61,70);
+    --color-peach: #ffcc99;
+    --color-pink: #ff8080;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    transition: all 100ms;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(62,61,70);
+    color: #ffcc99;
+    padding: 20px;
+}
+
+table {
+  align-items: center;
+}
+
+tr {
+  align-items: center;
+}
+body {
+  align-items: center;
+}
+button {
+  background-color: #99ccff;
+  color: rgba(62,61,70);
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+}

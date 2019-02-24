@@ -1,0 +1,54 @@
+/* general things*/
+
+:root {
+    --color-light-blue: #99ccff;
+    --color-white #fff;
+    --color-navy: rgba(62,61,70);
+    --color-peach: #ffcc99;
+    --color-pink: #ff8080;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 85px;
+    transition: all 100ms;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ffcc99;
+}
+
+body {
+	background-color: rgba(62,61,70);
+	padding: 20px;
+  font-size: 85px;
+}
+
+h2 {
+  font-size: 25px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+div {
+  width: 600px;
+  border: 5px solid white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+button {
+  background-color: #99ccff;
+  color: rgba(62,61,70);
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  width: 350px;
+	height: auto;
+}
