@@ -1,0 +1,21 @@
+
+{
+  // If you went through the "Cloud Firestore Security Rules" step.
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  // Add this!
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "hosting": {
+    "public": "./public",
+    "headers": [{
+      "source" : "**/*.@(js|html)",
+      "headers" : [ {
+        "key" : "Cache-Control",
+        "value" : "max-age=0"
+      } ]
+    }]
+  }
+}

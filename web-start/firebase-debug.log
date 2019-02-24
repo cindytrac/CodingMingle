@@ -1,0 +1,25 @@
+[debug] [2019-02-24T21:47:28.168Z] ----------------------------------------------------------------------
+[debug] [2019-02-24T21:47:28.172Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\beth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2019-02-24T21:47:28.173Z] CLI Version:   6.4.0
+[debug] [2019-02-24T21:47:28.173Z] Platform:      win32
+[debug] [2019-02-24T21:47:28.173Z] Node Version:  v10.15.1
+[debug] [2019-02-24T21:47:28.175Z] Time:          Sun Feb 24 2019 16:47:28 GMT-0500 (Eastern Standard Time)
+[debug] [2019-02-24T21:47:28.175Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-24T21:47:28.194Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-24T21:47:28.196Z] > authorizing via signed-in user
+[debug] [2019-02-24T21:47:28.196Z] [iam] checking project chat-project-fa27d for permissions ["firebase.projects.get"]
+[debug] [2019-02-24T21:47:28.200Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-project-fa27d:testIamPermissions  
+
+[debug] [2019-02-24T21:47:28.565Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-24T21:47:28.568Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chat-project-fa27d  
+ 
+[debug] [2019-02-24T21:47:28.778Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\beth\Desktop\coding-mingle\web-start'...
+[info] 
+[debug] [2019-02-24T21:47:28.785Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1037853861269/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-24T21:47:28.983Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
